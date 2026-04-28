@@ -1,9 +1,133 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <title>My first web page </title>
-    </head>
-    <body>
+<html>
+<head>
+  <title>Cheng Yue | Portfolio</title>
 
-    </body>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  h1, h2, h3 {
+    color: #ffffff;
+  }
+
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+
+  .project {
+    margin-bottom: 30px;
+  }
+
+  a {
+    color: #4da6ff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div style="display: flex; align-items: center; gap: 20px;">
+    
+    <img src="cat.jpg" alt="Profile"
+        style="width: 100px; height: 100px; border-radius: 50%;">
+
+    <div>
+      <h1 style="margin: 0;">Cheng Yue</h1>
+      <p style="margin: 5px 0;">
+        Software Engineer | Backend | Full-Stack Development
+      </p>
+      <p>
+        Expected May 2026
+      </p>
+    </div>
+
+  </div>
+    <!-- CONTACT -->
+  <h2>Contact</h2>
+    <p>
+    <a href="https://github.com/CY343">GitHub</a> |
+    <a href="https://www.linkedin.com/in/cheng-yue-cs">LinkedIn</a> |
+    <a href="my_Resume.pdf" target="_blank">View Resume</a>
+    </p>
+    <p>
+        Email: <a href="mailto:cheng.yue38@stu-mail.hunter.cuny.edu">
+        cheng.yue38@stu-mail.hunter.cuny.edu
+        </a>
+    </p>
+  <h2>About Me</h2>
+<p>
+  I am a Computer Science student at Hunter College interested in backend development,
+  full-stack applications, and AI-powered systems. I enjoy building practical software
+  with clean APIs, strong logic, and real user-facing features.
+</p>
+
+  <!-- PROJECTS -->
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Smart Day Planner</h3>
+   <p>
+    Full-stack mobile planner built with React Native, Expo, FastAPI, and PostgreSQL.
+    Designed REST APIs with JWT authentication, task management, scheduling, and route optimization.
+    </p>
+    <p><strong>Tech:</strong> Python, TypeScript, React Native, FastAPI, PostgreSQL, Mapbox API</p>
+    <p><em>Demo in progress — currently improving features and UI.</em></p>
+    <p>
+    <a href="https://github.com/ShoaibSiddiqui1/smart-day-planner">View Code</a>
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Discourse Analysis Agent</h3>
+    <p>
+    Multi-agent AI system built with Python, LangGraph, LLMs, and external APIs.
+    The system collects data from News, Hacker News, and Semantic Scholar, then generates
+    structured analysis including summaries, sentiment, and perspectives.
+    </p>
+    <p><strong>Tech:</strong> Python, LangGraph, LLMs, APIs</p>
+     <p><em>Project currently being refined. Details coming soon.</em></p>
+  </div>
+
+  <div class="project">
+    <h3>C++ Banking System App</h3>
+    <p>
+    Desktop banking application built with C++ and Qt. Implemented role-based authentication,
+    checking and savings accounts, account constraints, and object-oriented design.
+    </p>
+    <iframe width="100%" height="300"
+    src="https://www.youtube.com/embed/afkxWFdToNc"
+    frameborder="0" allowfullscreen>
+    </iframe>
+    <p><strong>Tech:</strong> C++, Qt 6, OOP</p>
+    <a href="https://github.com/CY343/cpp-qt-banking-system">View Code</a>
+  </div>
+
+  <!-- SKILLS -->
+  <h2>Skills</h2>
+    <p>
+    <strong>Languages:</strong> C++, Python, TypeScript, JavaScript, HTML<br>
+    <strong>Frameworks:</strong> React Native, FastAPI, Expo, Qt 6<br>
+    <strong>Tools:</strong> Git, Docker<br>
+    <strong>Database:</strong> PostgreSQL<br>
+    <strong>Technologies:</strong> Mapbox API, React Native Maps, Geolocation Services
+    </p>
+
+
+
+</body>
 </html>
